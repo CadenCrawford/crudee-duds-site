@@ -26,12 +26,7 @@ h1{
 
 }
 
-.nav-logo a{
-    
-    height: inherit;
-    
-    
-}
+
 
 nav{
     background-color: #32a873;
@@ -109,7 +104,7 @@ p{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-left: 300px;
+    margin-left: 400px;
     list-style: none;
 }
 
