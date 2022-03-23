@@ -106,10 +106,10 @@ p{
 footer{
     background-color:#32a873;
     height: auto;
-    width: 100vw;
+    width: auto;
     font-family: 'Open Sans', sans-serif;
-    padding: 40px;
-    color: #fafffd;
+    padding: 30px;
+    color: #ffffff;
     
 
 
@@ -119,7 +119,6 @@ footer{
     display: inline;
     align-items: center;
     justify-content: center;
-    
     text-align: center;
     
 }
