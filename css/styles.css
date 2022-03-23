@@ -1,0 +1,169 @@
+body,html,img,h1,h2,main,footer{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+h1{
+    text-align: left;
+}
+.nav-logo{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 40px;
+    padding: 10px 30px;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+
+}
+
+.nav-logo a{
+    
+    height: inherit;
+    
+    
+}
+
+nav{
+    background-color: #32a873;
+    padding: auto;
+    border-bottom: 1px solid black;
+}
+
+nav ul{
+    width: auto;
+    margin-top: 8px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 15px 30px;
+    
+
+
+}
+
+nav li a{
+    font-size: 1.2vw;
+    border-top:#32a873;
+    color: rgb(253, 253, 253);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    
+}
+
+nav li a:hover{
+    color:rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+img{
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 175px;
+    margin-bottom: 20px;
+    border: solid rgb(0, 0, 0);
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h2{
+    margin-left: 500px;
+    margin-top: 300px;
+    display: grid;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: solid black;
+
+}
+
+p{
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+
+footer{
+    background-color:#32a873;
+    height: auto;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px;
+    color: #fafffd;
+    
+
+
+}
+
+.footer-content{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+    
+}
+
+.social{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   margin: 1rem 0 3rem 0;
+   
+
+    
+}
+
+.social li{
+    margin: 0 10px;
+    
+}
+
+.social a{
+    text-decoration: none;
+    
+    
+
+}
+
+.social a li{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    
+
+}
+
+.social a:hover i{
+    color: black;border: solid #32a873;
+
+}
+
+.social img{
+    border: none;
+    align-items: center;
+    margin-right: 300px;
+    height: 50;
+    width: 50;
+}
