@@ -103,6 +103,27 @@ p{
 
 }
 
+.contact{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 300px;
+    list-style: none;
+}
+
+iframe{
+    width: 50%;
+    height: 60%;
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    border: solid rgb(0, 0, 0);
+
+}
+
+
 footer{
     background-color:#32a873;
     height: auto;
