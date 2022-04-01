@@ -26,23 +26,30 @@ h1{
 
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 nav{
     background-color: #32a873;
     padding: auto;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #32a873;
+    
 }
 
 nav ul{
     width: auto;
     margin-top: 8px;
-    text-align: center;
+    text-align: right;
+    
 }
 
 nav li{
     display: inline-block;
     padding: 15px 30px;
+    
     
 
 
@@ -74,10 +81,7 @@ img{
     
 }
 
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 h2{
     margin-left: 500px;
@@ -98,6 +102,27 @@ p{
 
 }
 
+
+.p1{
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+
+h3{
+    text-align: center;
+    margin-left: 500px;
+    display: grid;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    
+
+
+}
+
 .contact{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -106,6 +131,59 @@ p{
     font-weight: bold;
     margin-left: 400px;
     list-style: none;
+}
+
+.hours{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 400px;
+    list-style: none;
+
+}
+
+.pricehead{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.prices{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    list-style: none;
+   
+}
+
+.serviceshead{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.services{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    list-style: none;
+
 }
 
 iframe{
@@ -118,6 +196,31 @@ iframe{
 
 }
 
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 150px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+.active, .accordion:hover {
+    background-color: #c5c5c5;
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
 
 footer{
     background-color:#32a873;
@@ -170,7 +273,7 @@ footer{
 
 }
 
-.social a:hover i{
+.social a:hover{
     color: black;border: solid #32a873;
 
 }

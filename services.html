@@ -24,17 +24,66 @@
             <li><a href="services.html">Services</a></li>
         </ul>
     </nav>
-    <main>
-        <div class="content">
-            <h2>Services</h2>
-
+    
+        <button class="accordion">Prices</button>
+        <div class="panel">
+            <h3 class="pricehead">
+                We offer 4 top loading washing machines, 10 front loaders and 12 dryers. Our prices are as follows:
+            </h3>
+                <ul class="prices">
+                    <li>Top Loaders- $1.25</li>
+                    <br>
+                    <li>Double Front Loaders- $2.00</li>
+                    <br>
+                    <li>Triple Front Loaders- $3.50</li>
+                    <br>
+                    <li>Dryers- .25 cents for 9-10 minutes</li>
+                </ul>
 
         </div>
-        <div>
-            <img src="images/laundrymatphoto.jpeg" alt="Crudee Dud's Laundromat">
+
+        <button class="accordion">Services</button>
+        <div class="panel">
+            <h3 class="serviceshead">
+                Services
+            </h3>
+            
+            <ul class="services">
+                <li>forget your soap, fabric softner, bleach, stain remover or dryer sheets? No problem! We also have a full array to choose from! $1 per box!</li> 
+                <br>
+                
+            
+                <li>We also offer WDF (wash, dry and fold). This service is available on a prescheduled basis. This service is perfect for the clothing and bedding! 
+                
+                We can schedule pickup and drop off at your home or business, or you can bring your crudee duds to us. Please call to schedule at 317-695-5724.</li> 
+                <br>
+                
+            
+                <li>We also provide to our customers Free WiFi, a childrens play area, ample parking and a waiting area stocked with magazines and newspapers.</li>
+            </ul>
         </div>
+
+       
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+            </script>
+
         
-    </main>
+    
 
     <footer>
         <div class="footer-content">
