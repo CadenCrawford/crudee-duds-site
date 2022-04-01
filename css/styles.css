@@ -1,4 +1,4 @@
-body,html,img,h1,h2,main,footer{
+body,html,header,img,h1,h2,main,footer{
     margin: 0;
     padding: 0;
 }
@@ -9,11 +9,17 @@ body{
 
 header{
     width: 100%;
-    height: 70px;
-    background-color: white;
+    height: 100px;
+    padding-top: 10px;
+    background-color: #32a873;
 }
 h1{
-    text-align: left;
+    position: absolute;
+    float: left;
+    margin-left: 2%;
+    font-family: 'Open Sans', sans-serif;
+    
+
 }
 .nav-logo{
     text-decoration: none;
@@ -281,7 +287,7 @@ footer{
 .social img{
     border: none;
     align-items: center;
-    margin-right: 300px;
+    margin-right: 200px;
     height: 50;
     width: 50;
 }
