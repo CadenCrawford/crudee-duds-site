@@ -21,14 +21,19 @@ h1{
     
 
 }
+
+span{
+    color: rgb(253, 253, 253);
+}
 .nav-logo{
     text-decoration: none;
     color:#ffffff;
     font-family: 'Open Sans', sans-serif;  
-    font-size: 40px;
+    font-size: 50px;
     padding: 10px 30px;
     text-transform:capitalize;
     letter-spacing: 1px;
+    font-weight: bold;
 
 }
 
@@ -91,6 +96,8 @@ h2{
     border-bottom: solid black;
 
 }
+
+
 
 p{
     text-align: left;
@@ -283,4 +290,75 @@ footer{
     margin-right: 200px;
     height: 50;
     width: 50;
+}
+
+@media only screen and (max-width: 1024px) {
+    h2{
+        margin-left: 300px;
+        margin-top: 300px;
+        margin-bottom: 100px;
+        display: grid;
+        text-align: left;
+        font-size: x-large;
+        font-family: 'Open Sans', sans-serif;
+        border-bottom: solid black;
+    
+    }
+
+    p{
+        text-align: left;
+        margin-left: 300px;
+        margin-top: -90px;
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        font-weight: bold;
+        
+    
+    }
+
+    img{
+        width: 40%;
+        margin-top: 250px;
+        margin-left: 175px;
+        margin-bottom: 20px;
+        border: solid rgb(0, 0, 0);
+    }
+
+    .contact{
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-left: 300px;
+        margin-top: -90px;
+        list-style: none;
+    }
+
+    iframe{
+        width: 65%;
+        height: 50%;
+        margin-top: 250px;
+        margin-left: 150px;
+        margin-bottom: 100px;
+        border: solid rgb(0, 0, 0);
+    
+    }
+
+    .hours{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-left: 300px;
+        margin-top: -90px;
+        list-style: none;
+    
+    }
+    
+
+
+
+    
 }
