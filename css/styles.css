@@ -89,6 +89,16 @@ img{
 
 h2{
     margin-left: 500px;
+    margin-top: 200px;
+    display: grid;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: solid black;
+
+}
+
+.home{
+    margin-left: 500px;
     margin-top: 300px;
     display: grid;
     font-size: xx-large;
@@ -101,10 +111,13 @@ h2{
 
 p{
     text-align: left;
+    font-size: larger;
+    font-weight: 600;
     margin-left: 500px;
+    margin-bottom: 200px;
     font-family: 'Open Sans', sans-serif;
     color: black;
-    font-weight: bold;
+    
 
 }
 
@@ -132,10 +145,12 @@ h3{
 .contact{
     font-family: 'Open Sans', sans-serif;
     text-align: left;
+    font-size: larger;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
     margin-left: 460px;
+    margin-bottom: 100px;
     list-style: none;
 }
 
