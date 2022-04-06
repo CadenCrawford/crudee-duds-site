@@ -85,6 +85,15 @@ img{
     border: solid rgb(0, 0, 0);
 }
 
+.aboutimg{
+    width: 50%;
+    height: 50%;
+    margin-top: 150px;
+    margin-left: 175px;
+    margin-bottom: 20px;
+    border: solid rgb(0, 0, 0);
+}
+
 
 
 h2{
@@ -133,7 +142,8 @@ p{
 
 h3{
     text-align: center;
-    margin-left: 500px;
+    margin-top: 50px;
+    margin-left: 00px;
     display: grid;
     font-size: large;
     font-family: 'Open Sans', sans-serif;
@@ -160,7 +170,7 @@ h3{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-left: 400px;
+    margin-left: 500px;
     list-style: none;
 
 }
